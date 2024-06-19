@@ -81,7 +81,7 @@ public:
 
     /**
      * @brief Adds an outgoing edge from this vertex to dest, and the same edge as an incoming edge of dest
-     * Complexity: O(1).
+     * @details Complexity: O(1).
      * @param dest Destination of the pipe
      * @param w Edge's weight
      * @return Pointer to the newly created edge
@@ -90,7 +90,7 @@ public:
 
     /**
      * @brief Removes all the outgoing edges to the vertex with info in
-     * Complexity: O(E1+E2), where E1 is the number of outgoing edges of this vertex and E2 is the number of incoming edges
+     * @details Complexity: O(E1+E2), where E1 is the number of outgoing edges of this vertex and E2 is the number of incoming edges
      * edges of the destination vertex.
      * @param in The info of the destination vertex
      * @return True if an edge was removed or not, and false otherwise
@@ -99,7 +99,7 @@ public:
 
     /**
      * @brief Removes all the outgoing edges, updating the destination vertexes accordingly
-     * Complexity: O(E), where E is the number of edges in the graph.
+     * @details 4Complexity: O(E), where E is the number of edges in the graph.
      */
     void removeOutgoingEdges();
 

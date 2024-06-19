@@ -1,7 +1,3 @@
-//
-// Created by bruno on 3/31/24.
-//
-
 #include "AugmentingPath.h"
 
 #include <limits>
